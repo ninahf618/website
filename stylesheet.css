@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+  }
+
 body {
     background-color: #f0f0f0;
     font-family: Monaco, monospace;
@@ -56,9 +60,7 @@ header a {
     color: white;
 }
 
-.about-wrapper,
-.projects-wrapper,
-.experience-wrapper {
+.about-wrapper, .projects-wrapper, .experience-wrapper {
     color: grey;
     padding: 50px;
 }
@@ -124,8 +126,7 @@ header a {
     font-size: 15px;
 }
 
-.geese,
-.tic {
+.geese,.tic {
     background-color: pink;
     border-radius: 25px;
     padding: 10px 20px;
@@ -137,8 +138,7 @@ header a {
     transition: transform 0.2s ease;
 }
 
-.geese:hover,
-.tic:hover {
+.geese:hover,.tic:hover {
     background-color: rgb(253, 158, 174);
     transform: scale(1.1);
 }
@@ -180,21 +180,20 @@ header a {
     line-height: 1.6;
 }
 
+.contact1 {
+    display: none;
+}
+
 .contacts {
     background-color: pink;
     color: rgb(87, 87, 87);
     text-shadow: 1px 1px 2px whitesmoke;
-
     margin-top: 50px;
     padding: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60px;
-}
-
-.contact {
-    color: rgb(86, 86, 86);
     transition: transform 0.2s ease;
 }
 
