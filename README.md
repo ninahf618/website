@@ -1,1 +1,1 @@
-This is a personal website I made using HTML and CSS. 
+This is a personal website made with HTML and CSS. 
